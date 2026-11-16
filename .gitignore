@@ -1,0 +1,12 @@
+# Build output
+build/
+
+# CMake local presets and editor databases
+CMakeUserPresets.json
+compile_commands.json
+.cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
