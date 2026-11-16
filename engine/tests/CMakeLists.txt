@@ -2,6 +2,7 @@ include(Catch)
 
 add_executable(orbis_tests
     test_endian.cpp
+    test_result.cpp
 )
 
 target_link_libraries(orbis_tests PRIVATE
