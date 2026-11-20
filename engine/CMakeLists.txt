@@ -12,3 +12,7 @@ target_compile_options(orbis_core PRIVATE
 
 add_executable(orbis-engine src/main.cpp)
 target_link_libraries(orbis-engine PRIVATE orbis_core)
+
+if(BUILD_TESTING)
+    add_subdirectory(tests)
+endif()
