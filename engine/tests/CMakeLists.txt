@@ -4,6 +4,7 @@ add_executable(orbis_tests
     test_endian.cpp
     test_result.cpp
     test_byte_writer.cpp
+    test_byte_reader.cpp
 )
 
 target_link_libraries(orbis_tests PRIVATE
